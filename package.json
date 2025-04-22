@@ -1,0 +1,23 @@
+{
+  "name": "webshothq",
+  "version": "1.0.0",
+  "description": "High-quality website screenshot tool with customizable viewport dimensions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "screenshot",
+    "website",
+    "puppeteer",
+    "capture",
+    "webshot",
+    "high-quality"
+  ],
+  "author": "Kapási Fülöp <fulop@larasoft.hu>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "open": "^9.0.0"
+  }
+}
