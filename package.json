@@ -1,8 +1,11 @@
 {
   "name": "webshothq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-quality website screenshot tool with customizable viewport dimensions",
   "main": "index.js",
+  "bin": {
+    "webshothq": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
@@ -17,7 +20,18 @@
   "author": "Kapási Fülöp <fulop@larasoft.hu>",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^21.0.0",
-    "open": "^9.0.0"
+    "puppeteer": "^24.7.0",
+    "open": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapasifulop/webshothq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kapasifulop/webshothq/issues"
+  },
+  "homepage": "https://github.com/kapasifulop/webshothq#readme",
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
