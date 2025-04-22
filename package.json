@@ -4,7 +4,7 @@
   "description": "High-quality website screenshot tool with customizable viewport dimensions",
   "main": "index.js",
   "bin": {
-    "webshothq": "./index.js"
+    "webshothq": "index.js"
   },
   "scripts": {
     "start": "node index.js"
